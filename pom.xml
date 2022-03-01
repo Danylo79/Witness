@@ -10,14 +10,16 @@
     <version>1.0</version>
 
     <modules>
-        <module>witness-neural</module>
         <module>witness-util</module>
         <module>witness-file</module>
+        <module>witness-neural</module>
+        <module>witness-logger</module>
     </modules>
 
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
         <maven.compiler.target>16</maven.compiler.target>
+        <asm.version>9.2</asm.version>
     </properties>
 
     <build>
