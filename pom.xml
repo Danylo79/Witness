@@ -17,6 +17,7 @@
         <module>witness-logger</module>
 
         <module>witness-neural</module>
+        <module>witness-security</module>
     </modules>
 
     <properties>
