@@ -1,12 +1,9 @@
 package dev.dankom.witness.util.general;
 
-import dev.dankom.util.general.MathUtil;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class NameHelper {
-
     private static final List<String> names = new ArrayList<>();
 
     public static String getRandomName() {

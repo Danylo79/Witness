@@ -1,8 +1,8 @@
 package dev.dankom.witness.logger;
 
-import dev.dankom.logger.abztract.DefaultLogger;
-import dev.dankom.logger.interfaces.ILogger;
-import dev.dankom.logger.profiler.Profiler;
+import dev.dankom.witness.logger.abztract.DefaultLogger;
+import dev.dankom.witness.logger.interfaces.ILogger;
+import dev.dankom.witness.logger.profiler.Profiler;
 
 import java.util.HashMap;
 import java.util.Map;

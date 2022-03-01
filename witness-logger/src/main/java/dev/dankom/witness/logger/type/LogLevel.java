@@ -1,6 +1,6 @@
 package dev.dankom.witness.logger.type;
 
-import dev.dankom.util.general.ColorUtil;
+import dev.dankom.witness.util.general.ColorUtil;
 
 public enum LogLevel {
     INFO("INFO", ""),

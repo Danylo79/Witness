@@ -10,10 +10,13 @@
     <version>1.0</version>
 
     <modules>
-        <module>witness-util</module>
+        <!--        Core-->
+        <module>witness-math</module>
         <module>witness-file</module>
-        <module>witness-neural</module>
+        <module>witness-util</module>
         <module>witness-logger</module>
+
+        <module>witness-neural</module>
     </modules>
 
     <properties>

@@ -1,6 +1,6 @@
 package dev.dankom.witness.logger.interfaces;
 
-import dev.dankom.logger.type.LogLevel;
+import dev.dankom.witness.logger.type.LogLevel;
 
 public interface ILogger {
     void log(LogLevel level, String loc, Object msg);

@@ -1,6 +1,6 @@
 package dev.dankom.witness.file.yml;
 
-import dev.dankom.file.yml.type.YmlObject;
+import dev.dankom.witness.file.yml.type.YmlObject;
 import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.Yaml;
 

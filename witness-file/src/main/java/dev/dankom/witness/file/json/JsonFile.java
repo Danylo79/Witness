@@ -1,6 +1,5 @@
 package dev.dankom.witness.file.json;
 
-import dev.dankom.file.json.JsonObjectBuilder;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;

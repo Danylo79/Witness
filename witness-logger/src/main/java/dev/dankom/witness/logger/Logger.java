@@ -1,7 +1,7 @@
 package dev.dankom.witness.logger;
 
-import dev.dankom.logger.type.LogLevel;
-import dev.dankom.util.general.ColorUtil;
+import dev.dankom.witness.logger.type.LogLevel;
+import dev.dankom.witness.util.general.ColorUtil;
 
 import java.io.File;
 import java.io.IOException;

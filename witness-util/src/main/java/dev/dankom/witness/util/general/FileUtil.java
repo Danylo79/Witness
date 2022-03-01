@@ -1,7 +1,5 @@
 package dev.dankom.witness.util.general;
 
-import dev.dankom.file.json.JsonObjectBuilder;
-import dev.dankom.security.cipher.ciphers.aes.AES256;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.json.simple.JSONObject;
@@ -32,39 +30,6 @@ public class FileUtil {
             out.add(new File(s));
         }
         return out;
-    }
-
-    public static void encryptFile(String fileName, String key, String salt) {
-        AES256 aes = new AES256(key, salt);
-        File file = new File(fileName);
-        JsonObjectBuilder builder = new JsonObjectBuilder();
-        builder.addKeyValuePair("fileContents", Base64.getEncoder().encodeToString(readBytes(file)));
-        String toEncode = aes.encrypt(builder.build().toJSONString());
-
-        try {
-            FileUtils.forceDelete(file);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        writeFile(new File(file.getParentFile(), aes.encrypt(file.getName())), toEncode.getBytes());
-    }
-
-    public static void decryptFile(String fileName, String key, String salt) {
-        try {
-            AES256 aes = new AES256(key, salt);
-            File file = new File(aes.encrypt(new File(fileName).getName()));
-            String decoded = aes.decrypt(new String(readBytes(file)));
-            JSONObject jo = (JSONObject) new JSONParser().parse(decoded);
-
-            try {
-                FileUtils.forceDelete(file);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            writeFile(new File(file.getParentFile(), fileName), Base64.getDecoder().decode((String) jo.get("fileContents")));
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
     }
 
     public static void writeFile(File f, byte[] bytes) {

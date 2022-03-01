@@ -1,6 +1,6 @@
 package dev.dankom.witness.file.gitignore;
 
-import dev.dankom.file.type.file.SimpleFile;
+import dev.dankom.witness.file.type.file.SimpleFile;
 
 import java.io.File;
 

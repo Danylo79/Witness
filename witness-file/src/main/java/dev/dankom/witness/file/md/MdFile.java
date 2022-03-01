@@ -1,6 +1,6 @@
 package dev.dankom.witness.file.md;
 
-import dev.dankom.file.type.file.SimpleFile;
+import dev.dankom.witness.file.type.file.SimpleFile;
 
 import java.io.File;
 

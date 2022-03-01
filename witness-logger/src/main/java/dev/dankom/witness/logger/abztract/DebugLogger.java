@@ -1,6 +1,6 @@
 package dev.dankom.witness.logger.abztract;
 
-import dev.dankom.logger.type.LogLevel;
+import dev.dankom.witness.logger.type.LogLevel;
 
 public class DebugLogger extends DefaultLogger {
     private final boolean seeTest;

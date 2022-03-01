@@ -1,6 +1,6 @@
 package dev.dankom.witness.util.general;
 
-import dev.dankom.file.type.Directory;
+import dev.dankom.witness.file.type.Directory;
 
 import java.io.File;
 import java.io.FileInputStream;

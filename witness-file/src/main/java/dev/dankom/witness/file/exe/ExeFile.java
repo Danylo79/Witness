@@ -1,6 +1,5 @@
 package dev.dankom.witness.file.exe;
 
-import dev.dankom.exception.OperatingSystemNotSupported;
 import org.jetbrains.annotations.NotNull;
 
 import java.awt.*;
@@ -25,11 +24,11 @@ public class ExeFile extends File {
         super(uri);
     }
 
-    public void run() throws OperatingSystemNotSupported, IOException {
+    public void run() throws Exception {
         if (Desktop.isDesktopSupported()) {
             Desktop.getDesktop().open(this);
         } else {
-            throw new OperatingSystemNotSupported("Your current os is not supported by this class!");
+            throw new Exception("Your current os is not supported by this class!");
         }
     }
 }

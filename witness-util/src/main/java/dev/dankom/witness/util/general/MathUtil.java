@@ -1,11 +1,11 @@
 package dev.dankom.witness.util.general;
 
-import dev.dankom.math.interfaces.IPoint2;
-import dev.dankom.math.interfaces.IPoint3;
-import dev.dankom.math.point.d.Point2D;
-import dev.dankom.math.point.f.Point2F;
-import dev.dankom.math.point.f.Point3F;
-import dev.dankom.util.math.PointUtil;
+import dev.dankom.witness.math.interfaces.IPoint2;
+import dev.dankom.witness.math.interfaces.IPoint3;
+import dev.dankom.witness.math.point.d.Point2D;
+import dev.dankom.witness.math.point.f.Point2F;
+import dev.dankom.witness.math.point.f.Point3F;
+import dev.dankom.witness.util.math.PointUtil;
 
 import java.text.DecimalFormat;
 import java.util.Random;

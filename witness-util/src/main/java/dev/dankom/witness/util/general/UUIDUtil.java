@@ -1,8 +1,7 @@
 package dev.dankom.witness.util.general;
 
-import dev.dankom.regex.Regex;
-
 import java.util.UUID;
+import java.util.regex.Pattern;
 
 public class UUIDUtil {
     public static UUID uuidFromString(String s) {
@@ -29,6 +28,6 @@ public class UUIDUtil {
     }
 
     public boolean isUUID(String s) {
-        return Regex.UUID.string(s).match();
+        return Pattern.compile("^(?<data1>[0-9a-fA-F]{8})-(?<data2>[0-9a-fA-F]{4})-(?<data3>[0-9a-fA-F]{4})-(?<data4>[0-9a-fA-F]{4})-(?<data5>[0-9a-fA-F]{12})$").matcher(s).find();
     }
 }

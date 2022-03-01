@@ -1,6 +1,5 @@
 package dev.dankom.witness.util.reflection;
 
-import dev.dankom.type.ReflectionData;
 import org.reflections.Reflections;
 
 import java.lang.reflect.Constructor;
@@ -38,33 +37,6 @@ public class ReflectionUtil {
     public static <T> Set<String> getAllTypes(String dir) {
         Reflections reflection = new Reflections(dir);
         return reflection.getAllTypes();
-    }
-
-    /**
-     * @param m The method to extract the data from
-     * @return The ReflectionData of the method
-     * @see ReflectionData
-     */
-    public static ReflectionData getMethodData(Method m) {
-        return new ReflectionData(m);
-    }
-
-    /**
-     * @param c The class to extract the data from
-     * @return The ReflectionData of the class
-     * @see ReflectionData
-     */
-    public static ReflectionData getClassData(Class c) {
-        return new ReflectionData(c);
-    }
-
-    /**
-     * @param f The field to extract the data from
-     * @return The ReflectionData of the field
-     * @see ReflectionData
-     */
-    public static ReflectionData getFieldData(Field f) {
-        return new ReflectionData(f);
     }
 
     public static <T> T newInstance(Class<T> clazz, Object... parameters) {

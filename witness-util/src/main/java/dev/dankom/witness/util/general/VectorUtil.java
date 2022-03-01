@@ -1,11 +1,11 @@
 package dev.dankom.witness.util.general;
 
-import dev.dankom.math.point.d.Point2D;
-import dev.dankom.math.point.d.Point3D;
-import dev.dankom.math.point.f.Point2F;
-import dev.dankom.math.point.f.Point3F;
-import dev.dankom.math.point.i.Point2I;
-import dev.dankom.math.point.i.Point3I;
+import dev.dankom.witness.math.point.d.Point2D;
+import dev.dankom.witness.math.point.d.Point3D;
+import dev.dankom.witness.math.point.f.Point2F;
+import dev.dankom.witness.math.point.f.Point3F;
+import dev.dankom.witness.math.point.i.Point2I;
+import dev.dankom.witness.math.point.i.Point3I;
 
 public class VectorUtil {
     public static final Point2F vector(float x, float y) {
