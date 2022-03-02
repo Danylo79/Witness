@@ -26,6 +26,12 @@
             <version>0.9.11</version>
         </dependency>
         <dependency>
+            <groupId>org.zeroturnaround</groupId>
+            <artifactId>zt-zip</artifactId>
+            <version>1.14</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
             <groupId>dev.dankom</groupId>
             <artifactId>witness-math</artifactId>
             <version>1.0</version>
