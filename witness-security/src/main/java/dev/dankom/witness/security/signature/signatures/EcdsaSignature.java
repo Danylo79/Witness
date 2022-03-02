@@ -1,11 +1,11 @@
 package dev.dankom.witness.security.signature.signatures;
 
-import dev.dankom.security.signature.PlightSignature;
+import dev.dankom.witness.security.signature.WitnessSignature;
 
 import java.security.PrivateKey;
 import java.security.Signature;
 
-public class EcdsaSignature implements PlightSignature {
+public class EcdsaSignature implements WitnessSignature {
     @Override
     public byte[] applySig(String input, PrivateKey key) {
         Signature dsa;

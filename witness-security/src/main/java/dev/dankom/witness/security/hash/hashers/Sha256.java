@@ -1,6 +1,6 @@
 package dev.dankom.witness.security.hash.hashers;
 
-import dev.dankom.security.hash.Hasher;
+import dev.dankom.witness.security.hash.Hasher;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;

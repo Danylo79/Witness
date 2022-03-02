@@ -1,6 +1,6 @@
 package dev.dankom.witness.security.cipher.ciphers.aes;
 
-import dev.dankom.security.cipher.ICipher;
+import dev.dankom.witness.security.cipher.ICipher;
 
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;

@@ -2,6 +2,6 @@ package dev.dankom.witness.security.signature;
 
 import java.security.PrivateKey;
 
-public interface PlightSignature {
+public interface WitnessSignature {
     byte[] applySig(String input, PrivateKey key);
 }

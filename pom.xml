@@ -71,22 +71,6 @@
             <id>jna</id>
             <url>https://mvnrepository.com/artifact/com.sun.jna/jna</url>
         </repository>
-        <repository>
-            <id>guava</id>
-            <url>https://mvnrepository.com/artifact/com.google.guava/guava</url>
-        </repository>
-        <repository>
-            <id>netty</id>
-            <url>https://mvnrepository.com/artifact/io.netty/netty-all</url>
-        </repository>
-        <repository>
-            <id>dv8tion</id>
-            <url>https://m2.dv8tion.net/releases</url>
-        </repository>
-        <repository>
-            <id>javassist</id>
-            <url>https://mvnrepository.com/artifact/org.javassist/javassist</url>
-        </repository>
     </repositories>
 
     <dependencies>
@@ -106,11 +90,6 @@
             <version>1.21</version>
         </dependency>
         <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
-        </dependency>
-        <dependency>
             <groupId>org.zeroturnaround</groupId>
             <artifactId>zt-zip</artifactId>
             <version>1.14</version>
@@ -120,35 +99,6 @@
             <groupId>com.sun.jna</groupId>
             <artifactId>jna</artifactId>
             <version>3.0.9</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
-        <!-- mXparser -->
-        <dependency>
-            <groupId>org.mariuszgromada.math</groupId>
-            <artifactId>MathParser.org-mXparser</artifactId>
-            <version>4.4.2</version>
-        </dependency>
-        <!-- Discord -->
-        <dependency>
-            <groupId>net.dv8tion</groupId>
-            <artifactId>JDA</artifactId>
-            <version>4.3.0_346</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sedmelluq</groupId>
-            <artifactId>lavaplayer</artifactId>
-            <version>1.3.78</version>
-        </dependency>
-        <!-- Netty -->
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-            <version>4.1.10.Final</version>
         </dependency>
         <!-- Security -->
         <dependency>
@@ -161,11 +111,6 @@
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
             <version>1.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>30.1-jre</version>
         </dependency>
         <!--        Apache        -->
         <dependency>
@@ -183,34 +128,6 @@
             <groupId>org.ow2.asm</groupId>
             <artifactId>asm-util</artifactId>
             <version>${asm.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.fesh0r</groupId>
-            <artifactId>fernflower</artifactId>
-            <version>e19aab61ce</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13</version>
-            <scope>compile</scope>
-        </dependency>
-        <!-- Languages -->
-        <dependency>
-            <groupId>org.python</groupId>
-            <artifactId>jython</artifactId>
-            <version>2.7.2</version>
-        </dependency>
-        <!-- Html -->
-        <dependency>
-            <groupId>net.sourceforge.htmlunit</groupId>
-            <artifactId>htmlunit</artifactId>
-            <version>2.55.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.javassist</groupId>
-            <artifactId>javassist</artifactId>
-            <version>3.28.0-GA</version>
         </dependency>
     </dependencies>
 </project>
