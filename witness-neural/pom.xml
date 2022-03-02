@@ -10,4 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>witness-neural</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>dev.dankom</groupId>
+            <artifactId>witness-math</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 </project>
