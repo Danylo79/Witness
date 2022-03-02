@@ -50,11 +50,6 @@
 
     <repositories>
         <repository>
-            <id>reflection</id>
-            <name>reflection</name>
-            <url>https://mvnrepository.com/artifact/org.reflections/reflections/0.9.12</url>
-        </repository>
-        <repository>
             <id>commons-io</id>
             <name>commons-io</name>
             <url>https://mvnrepository.com/artifact/commons-io/commons-io/2.8.0</url>
@@ -64,10 +59,6 @@
             <url>https://jitpack.io</url>
         </repository>
         <repository>
-            <id>json-simple</id>
-            <url>https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple</url>
-        </repository>
-        <repository>
             <id>jna</id>
             <url>https://mvnrepository.com/artifact/com.sun.jna/jna</url>
         </repository>
@@ -75,19 +66,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.reflections</groupId>
-            <artifactId>reflections</artifactId>
-            <version>0.9.11</version>
-        </dependency>
-        <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
             <version>13.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.yaml</groupId>
-            <artifactId>snakeyaml</artifactId>
-            <version>1.21</version>
         </dependency>
         <dependency>
             <groupId>org.zeroturnaround</groupId>
@@ -99,18 +80,6 @@
             <groupId>com.sun.jna</groupId>
             <artifactId>jna</artifactId>
             <version>3.0.9</version>
-        </dependency>
-        <!-- Security -->
-        <dependency>
-            <groupId>org.bouncycastle</groupId>
-            <artifactId>bcprov-jdk15on</artifactId>
-            <version>1.69</version>
-        </dependency>
-        <!--        Google        -->
-        <dependency>
-            <groupId>com.googlecode.json-simple</groupId>
-            <artifactId>json-simple</artifactId>
-            <version>1.1</version>
         </dependency>
         <!--        Apache        -->
         <dependency>

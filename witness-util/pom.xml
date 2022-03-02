@@ -11,7 +11,20 @@
         <version>1.0</version>
     </parent>
 
+    <repositories>
+        <repository>
+            <id>reflection</id>
+            <name>reflection</name>
+            <url>https://mvnrepository.com/artifact/org.reflections/reflections/0.9.12</url>
+        </repository>
+    </repositories>
+
     <dependencies>
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.9.11</version>
+        </dependency>
         <dependency>
             <groupId>dev.dankom</groupId>
             <artifactId>witness-math</artifactId>
