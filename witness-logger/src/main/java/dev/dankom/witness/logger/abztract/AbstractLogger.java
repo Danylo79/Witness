@@ -52,17 +52,4 @@ public class AbstractLogger {
         important("Test Colors", "Purple");
         test("Test Colors", "Green");
     }
-
-    public static void main(String[] args) {
-        new AbstractLogger((level, loc, msg) -> {
-            try {
-                Date date = new Date();
-                String time = "[" + date.getHours() + ":" + date.getMinutes() + "." + date.getSeconds() + "]";
-                loc = "[" + loc + "]";
-                String print = level.getColor() + time + " [" + level.getName() + "] " + loc + " " + msg + ColorUtil.ANSI_RESET;
-                System.out.println(print);
-            } catch (NullPointerException e) {
-            }
-        }).testColors();
-    }
 }
